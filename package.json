@@ -99,7 +99,7 @@
     }
   },
   "dependencies": {
-    "@octokit/rest": "15.9.4",
+    "@octokit/rest": "15.9.5",
     "app-root-path": "^2.0.1",
     "babel-plugin-source-map-support": "^2.0.1",
     "babel-plugin-transform-runtime": "^6.23.0",
