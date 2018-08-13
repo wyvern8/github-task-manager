@@ -61,7 +61,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "dotenv": "^6.0.0",
     "eslint": "^4.19.1",
-    "eslint-config-prettier": "2.9.0",
+    "eslint-config-prettier": "2.10.0",
     "eslint-plugin-prettier": "2.6.0",
     "firstline": "^2.0.2",
     "format-json": "^1.0.3",
