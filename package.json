@@ -28,7 +28,9 @@
     "docker-local-logs": "docker-compose logs --tail=0 --follow",
     "docker-local-bounce": "npm run agent-build && docker-compose restart && npm run docker-local-logs",
     "k8s-apply": "chmod 755 ./k8s.sh && ./k8s.sh apply",
-    "k8s-delete": "chmod 755 ./k8s.sh && ./k8s.sh delete"
+    "k8s-delete": "chmod 755 ./k8s.sh && ./k8s.sh delete",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -122,7 +124,7 @@
     "jenkins": "^0.22.1",
     "jsontoxml": "^1.0.0",
     "launchdarkly-nodeutils": "^3.5.4",
-    "ldclient-node": "^5.0.2",
+    "ldclient-node": "^5.1.1",
     "lodash": "^4.17.10",
     "node-static": "^0.7.10",
     "nunjucks": "^3.1.3",
@@ -137,12 +139,14 @@
     "systemjs": "^0.21.4",
     "teamcity-rest-api": "0.0.8",
     "tempus-fugit": "^2.3.1",
-    "travis-ci": "^2.1.1",
+    "travis-ci": "^2.2.0",
     "uuid": "^3.2.1",
     "webpack": "^4.12.0",
     "xml2js": "^0.4.19",
     "yamljs": "^0.3.0",
     "zlib": "^1.0.5",
-    "serverless-kms-secrets": "^1.0.3"
-  }
+    "serverless-kms-secrets": "^1.0.3",
+    "snyk": "^1.116.2"
+  },
+  "snyk": true
 }
