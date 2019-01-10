@@ -133,7 +133,7 @@
     "safe-json-stringify": "^1.2.0",
     "smoketail": "^0.1.1",
     "source-map-support": "^0.5.6",
-    "sqs-consumer": "^3.8.0",
+    "sqs-consumer": "^4.0.0",
     "systemjs": "^0.21.4",
     "teamcity-rest-api": "0.0.8",
     "tempus-fugit": "^2.3.1",
