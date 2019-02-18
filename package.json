@@ -75,7 +75,7 @@
     "serverless-dotenv-plugin": "^1.1.3",
     "serverless-offline": "^3.25.4",
     "serverless-webpack": "^5.1.5",
-    "sinon": "^6.0.0",
+    "sinon": "^7.2.4",
     "sqs-producer": "^1.6.2",
     "supertest": "^3.1.0"
   },
