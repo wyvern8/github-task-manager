@@ -65,7 +65,7 @@
     "eslint-plugin-prettier": "2.6.0",
     "firstline": "^2.0.2",
     "format-json": "^1.0.3",
-    "mocha": "^5.2.0",
+    "mocha": "^6.0.0",
     "node-sass": "^4.9.0",
     "nyc": "^12.0.2",
     "prettier": "1.13.5",
