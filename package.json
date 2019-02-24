@@ -143,6 +143,6 @@
     "xml2js": "^0.4.19",
     "yamljs": "^0.3.0",
     "zlib": "^1.0.5",
-    "serverless-kms-secrets": "^1.0.3"
+    "serverless-kms-secrets": "^1.0.4"
   }
 }
