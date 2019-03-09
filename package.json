@@ -77,7 +77,7 @@
     "serverless-webpack": "^5.1.5",
     "sinon": "^6.0.0",
     "sqs-producer": "^1.6.2",
-    "supertest": "^3.1.0"
+    "supertest": "^4.0.0"
   },
   "engines": {
     "node": ">=8.4.0"
