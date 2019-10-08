@@ -118,7 +118,7 @@
     "globule": "^1.2.1",
     "highlight.js": "^9.12.0",
     "http": "^0.0.0",
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^3.0.0",
     "jenkins": "^0.22.1",
     "jsontoxml": "^1.0.0",
     "launchdarkly-nodeutils": "^3.5.4",
