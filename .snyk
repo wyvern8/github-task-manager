@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - '@octokit/rest > lodash':
+        patched: '2020-05-01T06:50:36.340Z'
+    - elasticsearch > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - globule > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - launchdarkly-nodeutils > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - babel-plugin-source-map-support > @babel/helper-module-imports > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - launchdarkly-nodeutils > globule > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - ldclient-node > async > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - sqs-consumer > async > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - launchdarkly-nodeutils > swagger-client > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - ldclient-node > node-cache > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - babel-plugin-source-map-support > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - cwlogs-writable > aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - serverless-kms-secrets > aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - smoketail > aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - sqs-consumer > aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - babel-plugin-source-map-support > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - cwlogs-writable > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - serverless-kms-secrets > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - smoketail > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - sqs-consumer > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - travis-ci > request > form-data > async > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - babel-plugin-source-map-support > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - launchdarkly-nodeutils > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - babel-plugin-source-map-support > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-05-01T06:50:36.340Z'
+    - babel-plugin-source-map-support > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T06:50:36.340Z'

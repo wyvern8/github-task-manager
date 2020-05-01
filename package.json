@@ -28,7 +28,9 @@
     "docker-local-logs": "docker-compose logs --tail=0 --follow",
     "docker-local-bounce": "npm run agent-build && docker-compose restart && npm run docker-local-logs",
     "k8s-apply": "chmod 755 ./k8s.sh && ./k8s.sh apply",
-    "k8s-delete": "chmod 755 ./k8s.sh && ./k8s.sh delete"
+    "k8s-delete": "chmod 755 ./k8s.sh && ./k8s.sh delete",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -143,6 +145,8 @@
     "xml2js": "^0.4.19",
     "yamljs": "^0.3.0",
     "zlib": "^1.0.5",
-    "serverless-kms-secrets": "^1.0.3"
-  }
+    "serverless-kms-secrets": "^1.0.3",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
