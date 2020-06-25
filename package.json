@@ -105,7 +105,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.18.3",
-    "bunyan": "^1.8.12",
+    "bunyan": "^1.8.13",
     "bunyan-format": "^0.2.1",
     "bunyan-logstash-tcp": "^1.0.0",
     "cwlogs-writable": "^1.0.0",
